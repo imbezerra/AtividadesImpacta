@@ -27,6 +27,7 @@ Console.WriteLine(treinamento1.GetTreinamento());
 Treinamentos treinamento2 = new Treinamentos(2, "Treinamento de .NET");
 Treinamentos treinamento3 = new Treinamentos(3, "Treinamento de ASP.NET");
 Treinamentos treinamento4 = new Treinamentos(4, "Treinamento de Entity Framework");
+// Essa lista pode ser implementada diretamente na classe Treinamentos
 List<Treinamentos> listaTreinamentos = new List<Treinamentos> { treinamento1, treinamento2, treinamento3, treinamento4 };
 foreach (var treinamento in listaTreinamentos) // Lista de Treinamentos
 {
